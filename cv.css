@@ -88,10 +88,30 @@ page[size=A4] {
 .block.title {
   margin-bottom: 10px;
 }
-.block.side p {
-  margin-top: 4.5px;
+.block.side {
+  padding-top:0;
 }
-
+.block.side p {
+  margin: 0;
+}
+.block.side h3 {
+  margin-bottom: 4.5px;
+  margin-top: 8px;
+}
+.block.side .skills {
+  display: flex;
+  justify-content: space-between;
+}
+.block.side ul {
+  font-size: 11px;
+  line-height: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+.small-text {
+  font-size: 12px!important;
+}
 .linkedin {
   color: #2867B2;
 }
@@ -126,5 +146,3 @@ img {
   width: 75px;
   padding-right: 5px;
 }
-
-/*# sourceMappingURL=cv.css.map */
