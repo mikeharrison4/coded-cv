@@ -115,6 +115,9 @@ page[size=A4] {
   margin: 0;
   padding: 0
 }
+.medium-text {
+  font-size: 14px!important;
+}
 .small-text {
   font-size: 12px!important;
 }
